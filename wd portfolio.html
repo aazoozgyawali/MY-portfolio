@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Aazooz Gyawali - Portfolio</title>
+    <style>
+        body { 
+            background-color: #f7f5f0;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        h1 { 
+            color: #1a1a1a;
+            background-color: #ffffff;
+            border-bottom: 2px solid #333;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            background-color: #e6e2d6;
+            border-bottom: 1px solid #b5b0a1;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            padding-left: 10px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #d4cfc4;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        ul, ol {
+            background-color: #fcfbf9;
+            margin-top: 5px;
+            padding-left: 20px;
+            border: 1px solid #eeeada;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        #footer {
+            background-color: #ffffff;
+            border: 1px solid #d4cfc4;
+            padding: 15px;
+        }
+
+        /* Terminal / C Code Display Styling */
+        pre {
+            background-color: #1a1a1a;
+            color: #f5f2eb;
+            padding: 12px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        .output-box {
+            background-color: #2b2927;
+            color: #90ee90;
+            padding: 10px;
+            border-left: 4px solid #e6e2d6;
+            font-family: monospace;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Aazooz Gyawali</h1>
+    <p><b>Class 9 Computer Engineering Student</b> | Technical Stream</p>
+    <p>Location: Golpark,Butwal, Nepal</p>
+
+    <h2>About Me</h2>
+    <p>Hello! I am Aazooz Gyawali , a computer engineering student with a strong passion for programming, operating systems, and building web applications , godot games etc . I enjoy exploring software development, working with C programming ,godot,python , web tech,  ai llms , api works etc  and tinkering with Linux system configurations.
+        BTw i am also a linux user from 2024 . I use fedora with hyperland
+    </p>
+
+    <h2>Education & School</h2>
+    <div class="card">
+        <h3>Kalika Manavgyan Secondary School</h3>
+        <p><b>Program:</b> Class 9 Computer Engineering = Technical</p>
+        <p>Active participant in school clubs, science exhibitions, and student-led tech institute known as Symmetric alliances.</p>
+        <p> CTO of Symmetric Alliance at the young age of 14. Symmetric alliance is a IT company that does 
+            <ul>
+<li> Website development</li>
+<li>  Technical ideas Suddgestor    </li>
+ <li> Beggining phase of Game development</li>          
+<li>  logo design </li>
+ETC
+            </ul>                                                                 </p>
+    
+    </div>
+
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <ul>
+            <li><b>Programming Languages:</b> C Programming, Basic , qbasic , python , gdscript , </li>
+            <li><b>Web Development:</b> HTML, CSS, lil bit of react , DBMS= SQL </li>
+            <li><b>Operating Systems & Tools:</b> Linux , Git, Terminal Commands</li>
+            <li><b>Software & Game Dev:</b> Godot Engine basics , ai/api , ai integrated chatbot etc</li>
+        </ul>
+    </div>
+
+    <h2>Projects & Activities</h2>
+    
+    <div class="card">
+1.        
+<h3>Personal Portfolio Website
+</h3>
+    <p>Building a personal website to showcase my coding projects, school corse progress, and technical background using  html and css</p>
+  </div>
+
+<div class="card">
+        <h3>2. School & Utility Apps in C</h3>
+        <p>Developing console based programs such as interest calculators, electricity bill processors, py game by python, passowrd generator with python etc  .</p>
+    </div>
+ <div class="card">
+        <h3>3. history in  Game Development </h3>
+        <p>Experimenting with game design fundamentals and mechanics using the Godot engine. Made a game called ( climb-climb_&_climb) in a 24 hrs game jam [ Campfire butwal] </p>
+    </div>
+
+<div class="card">
+<h3> 4.Hackathons and game jam experiences </h3>
+<p> <ol type="I">
+<li> <h4> 24 hours game jam (Campfire Butwal ) </h4> </li> 
+<h5> I  attended the event when i was in grade 8 . it was my 1st experience at hackathon . There , imade a 2d platformer game called <a href="https://sibigy45.itch.io/climb-climb-and-climb"> Climb climb & climb</a> </li>
+<li><h4>Build guild hardware hackathon </h4></li>
+This was my first experience at international hackathon . Here, i attended with my cousin ( Prasoon kandel) . This hackathon taught me a alot about hardware . I went althrough Delhi to attend this .
+<li><h4> HACKTOBER FEST HACKADAY </h4></li>
+This was the hackathon that i went recently .Here , me any my team secured 4th position . This event was held in American Institute at devkota chwok Bhairahawa . Here, we created a ai and named it as { k-ho }. Simplly, this ai helps us to identify things by looking .  
+</ol>  </p>
+</div>
+
+    <h2>C Programming Demos</h2>
+
+    <div class="card">
+        <h3>Demo 1: Simple Interest Calculator in c</h3>
+        <p>A console program written in C to calculate simple interest and total amount.</p>
+        <pre>
+#include <stdio.h>
+
+int main() {
+    float p, r, t, si;
+    
+    printf("Enter Principal, Rate, Time: ");
+    scanf("%f %f %f", &p, &r, &t);
+    
+    si = (p * r * t) / 100;
+    
+    printf("Simple Interest = %.2f\n", si);
+    
+    return 0;
+}
+        </pre>
+        
+
+    <div class="card">
+        <h3>Demo 2: Nepal Income Tax Calculator (C)</h3>
+        <p>A C program calculating annual personal income tax based on Nepal's current individual tax ceiling.</p>
+        <pre> <!--mam yo pre tag le code ko format ma dekhauxa -->
+#include <stdio.h>
+
+int main() {
+    float income, tax = 0;
+    
+    printf("Enter Annual Income: ");
+    scanf("%f", &income);
+    
+    if (income <= 500000) {
+        tax = income * 0.01;
+    } else if (income <= 700000) {
+        tax = 5000 + (income - 500000) * 0.10;
+    } else if (income <= 1000000) {
+        tax = 25000 + (income - 700000) * 0.20;
+    } else {
+        tax = 85000 + (income - 1000000) * 0.30;
+    }
+    
+    printf("Total Tax = %.2f\n", tax);
+    
+    return 0;
+}
+        </pre>
+       
+    
+
+<p id="footer">
+
+
+<BR> <br> <br>
+    <hr> <hr>
+    A game made by me= <a href="https://sibigy45.itch.io/climb-climb-and-climb">  Climb Climb & climb</a>
+
+<hr> <hr> <hr>
+
+
+    <h2>Get in Touch</h2>
+    <p>Feel free to reach out for collaborations, student tech projects, or open-source discussions!</p>
+    <p> <h2>Email: <i> aazoozgyawali1@gmail.com</i> </h2> </p>
+    <p><h2>Phone No= 9840696569</h2></p>
+    <p><h3>COMPANY EMAIL= symmetricalliance@gmail.com</h3></p>
+</p>
+
+<h1> THANK_YOU_FOR_VISITING_MY_PORTFOLIO_WEB</h1>
+
+</body>
+</html>
